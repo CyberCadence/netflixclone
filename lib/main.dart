@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:netflixclone/domain/core/constants/colors.dart';
+import 'package:netflixclone/presentation/downloads/DownloadPAge.dart';
 import 'package:netflixclone/presentation/main_Page/widgets/screenMainPage.dart';
 
 void main() {
@@ -17,7 +18,7 @@ class MyApp extends StatelessWidget {
           textTheme: const TextTheme(
               bodyText1: TextStyle(color: Colors.white),
               bodyText2: TextStyle(color: Colors.white))),
-      home: ScreenMAinPAge(),
+      home: DownloadPAges(),
     );
   }
 }
